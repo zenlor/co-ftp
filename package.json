@@ -1,0 +1,31 @@
+{
+  "name": "co-ftp",
+  "version": "0.0.1",
+  "description": "ftp wrapping for co",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aliem/co-ftp"
+  },
+  "keywords": [
+    "ftp",
+    "co",
+    "harmony",
+    "thunk"
+  ],
+  "author": "aliem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aliem/co-ftp/issues"
+  },
+  "dependencies": {
+    "thunkify": "~2.1.1"
+  },
+  "devDependencies": {
+    "co": "~3.0.5",
+    "ftp": "~0.3.6"
+  }
+}
